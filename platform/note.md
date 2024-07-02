@@ -1,0 +1,3 @@
+AXI_GPIO_0 : dual_seven_seg_led_disp_8bits, seven_seg_led_an_8bits
+AXI_GPIO_1 : led_16bits, dip_swithes_16bits
+PMODGPIO_0_JA : XPAR_PMODGPIO_0_BASEADDR 0x10000

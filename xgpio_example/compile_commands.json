@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/build",
+  "command": "C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe  -IC:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/include -isystem C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include  -O2 -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/Xilinx.spec -IC:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/xgpio_example.elf.dir/PmodGPIO.c.obj -c C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/PmodGPIO.c",
+  "file": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/PmodGPIO.c"
+},
+{
+  "directory": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/build",
+  "command": "C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe  -IC:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/include -isystem C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include  -O2 -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/Xilinx.spec -IC:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/xgpio_example.elf.dir/oled.c.obj -c C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/oled.c",
+  "file": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/oled.c"
+},
+{
+  "directory": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/build",
+  "command": "C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe  -IC:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/include -isystem C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed -isystem C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include  -O2 -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/Xilinx.spec -IC:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/xgpio_example.elf.dir/xgpio_example.c.obj -c C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/xgpio_example.c",
+  "file": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src/xgpio_example.c"
+}
+]
