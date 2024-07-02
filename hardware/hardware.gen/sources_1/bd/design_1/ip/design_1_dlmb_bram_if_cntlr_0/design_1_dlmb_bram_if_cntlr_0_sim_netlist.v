@@ -5,7 +5,7 @@
 // Date        : Sun Jan 21 14:25:10 2024
 // Host        : xjh-pc running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/xjh/WorkSpace/CoDesign/hardware/hardware.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_sim_netlist.v
+//               C:/Users/xjh-pc/WorkSpace/CoDesign/hardware/hardware.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_sim_netlist.v
 // Design      : design_1_dlmb_bram_if_cntlr_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

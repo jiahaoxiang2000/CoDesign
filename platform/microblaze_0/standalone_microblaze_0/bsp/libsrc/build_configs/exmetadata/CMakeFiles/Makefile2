@@ -57,10 +57,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+CMAKE_SOURCE_DIR = C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+CMAKE_BINARY_DIR = C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/intc_example.dir/clean
 CMakeFiles/gpio_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_example.dir/build.make CMakeFiles/gpio_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_example.dir/build.make CMakeFiles/gpio_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target gpio_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target gpio_example"
 .PHONY : CMakeFiles/gpio_example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gpio_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gpio_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 .PHONY : CMakeFiles/gpio_example.dir/rule
 
 # Convenience name for target.
@@ -114,14 +114,14 @@ CMakeFiles/gpio_example.dir/clean:
 CMakeFiles/uartlite_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uartlite_example.dir/build.make CMakeFiles/uartlite_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uartlite_example.dir/build.make CMakeFiles/uartlite_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target uartlite_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target uartlite_example"
 .PHONY : CMakeFiles/uartlite_example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uartlite_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uartlite_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 .PHONY : CMakeFiles/uartlite_example.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ CMakeFiles/uartlite_example.dir/clean:
 CMakeFiles/intc_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intc_example.dir/build.make CMakeFiles/intc_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intc_example.dir/build.make CMakeFiles/intc_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target intc_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles --progress-num= "Built target intc_example"
 .PHONY : CMakeFiles/intc_example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/intc_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/intc_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 .PHONY : CMakeFiles/intc_example.dir/rule
 
 # Convenience name for target.

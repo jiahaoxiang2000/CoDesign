@@ -45,6 +45,7 @@
 #include "xgpio.h"
 #include "xil_printf.h"
 #include "xparameters.h"
+#include "uart.h"
 #include <stdint.h>
 
 /************************** Constant Definitions *****************************/
@@ -86,16 +87,16 @@
  * uses an older version of the driver (pre 2.00a) which did not have a channel
  * parameter. Note that the channel parameter is fixed as channel 1.
  */
-#define XGpio_SetDataDirection(InstancePtr, DirectionMask)                     \
+#define XGpio_SetDataDirection(InstancePtr, DirectionMask) \
   XGpio_SetDataDirection(InstancePtr, LED_CHANNEL, DirectionMask)
 
-#define XGpio_DiscreteRead(InstancePtr)                                        \
+#define XGpio_DiscreteRead(InstancePtr) \
   XGpio_DiscreteRead(InstancePtr, LED_CHANNEL)
 
-#define XGpio_DiscreteWrite(InstancePtr, Mask)                                 \
+#define XGpio_DiscreteWrite(InstancePtr, Mask) \
   XGpio_DiscreteWrite(InstancePtr, LED_CHANNEL, Mask)
 
-#define XGpio_DiscreteSet(InstancePtr, Mask)                                   \
+#define XGpio_DiscreteSet(InstancePtr, Mask) \
   XGpio_DiscreteSet(InstancePtr, LED_CHANNEL, Mask)
 
 #endif
@@ -128,7 +129,8 @@ PmodGPIO JaDevice;  // JA pmod
  *
  ******************************************************************************/
 
-int main(void) {
+int main(void)
+{
   int Status;
   volatile int Delay;
   //******************segment********************
@@ -143,7 +145,7 @@ int main(void) {
 
   //******************JA********************
   // pin 1 for  IIC SCL, pin 2 for IIC SDA
-  GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x00);
+  GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x22);
   OLED_Init();
   OLED_ColorTurn(0);
   OLED_DisplayTurn(0);
@@ -154,7 +156,8 @@ int main(void) {
 
   /* Initialize the GPIO driver */
   Status = XGpio_Initialize(&Gpio, XGPIO_AXI_BASEADDRESS);
-  if (Status != XST_SUCCESS) {
+  if (Status != XST_SUCCESS)
+  {
     xil_printf("Gpio Initialization Failed\r\n");
     return XST_FAILURE;
   }
@@ -162,8 +165,12 @@ int main(void) {
   /* Set the direction for all signals as inputs except the LED output */
   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
   /* Loop forever blinking the LED */
-
-  while (1) {
+  uint8_t hello[30] = {0};
+  hello[0] = '\0';
+  uint8_t receivedByte;
+  int i = 0; // Index for storing received bytes
+  while (1)
+  {
     /* Set the LED to High */
     XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
@@ -172,11 +179,20 @@ int main(void) {
     XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
     sleep(1);
+    i = 0;
+    
+    do
+    {
+      receivedByte = uartReceiveByte(); // Receive a byte
+      hello[i++] = receivedByte;        // Store the received byte
+    } while (receivedByte != '\r' && i < sizeof(hello) - 1); // Check for carriage return or buffer full
 
-    OLED_ShowString(0, 0, "P:0123456789ABCDEF", 12);
-    OLED_ShowString(0, 15, "FEDCBA9876543210", 12);
-    OLED_ShowString(0, 30, "C:6C842BCE41C7E351", 12);
-    OLED_ShowString(0, 45, "4068A3FB8BB42936", 12);
-    OLED_Refresh();
+    hello[i] = '\0'; // Null-terminate the string
+
+    // Send back the received string
+    for (int j = 0; hello[j] != '\0'; j++)
+    {
+      uartSendByte(hello[j]);
+    }
   }
 }

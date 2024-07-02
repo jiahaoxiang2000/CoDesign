@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/xiltimer/src/core/default_timer
+# Install script for directory: C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/xiltimer/src/core/default_timer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

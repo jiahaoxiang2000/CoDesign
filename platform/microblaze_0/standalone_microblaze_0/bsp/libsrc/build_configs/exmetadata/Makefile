@@ -60,10 +60,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+CMAKE_SOURCE_DIR = C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+CMAKE_BINARY_DIR = C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,9 +90,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

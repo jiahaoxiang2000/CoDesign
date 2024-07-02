@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/sleep.h"
-  "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/xiltimer.h"
-  "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/xtimer_config.h"
-  "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/lib/libxiltimer.a"
+  "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/sleep.h"
+  "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/xiltimer.h"
+  "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include/xtimer_config.h"
+  "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/lib/libxiltimer.a"
   "CMakeFiles/xiltimer.dir/core/default_timer/microblaze_sleep.c.obj"
   "CMakeFiles/xiltimer.dir/core/default_timer/microblaze_sleep.c.obj.d"
   "CMakeFiles/xiltimer.dir/xiltimer.c.obj"

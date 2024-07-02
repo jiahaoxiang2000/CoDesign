@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+# Install script for directory: C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

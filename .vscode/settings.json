@@ -1,3 +1,8 @@
 {
-    "cmake.sourceDirectory": "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src"
+    "cmake.sourceDirectory": "C:/Users/xjh-pc/WorkSpace/CoDesign/xgpio_example/src",
+    "files.associations": {
+        "stdlib.h": "c",
+        "pmodgpio.h": "c",
+        "xparameters.h": "c"
+    }
 }

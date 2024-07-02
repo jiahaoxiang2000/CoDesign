@@ -1,7 +1,7 @@
 {
   "name": "xgpio_example",
   "type": "HOST",
-  "platform": "C:\\Users\\xjh\\WorkSpace\\CoDesign\\platform\\export\\platform\\platform.xpfm",
+  "platform": "C:\\Users\\xjh-pc\\WorkSpace\\CoDesign\\platform\\export\\platform\\platform.xpfm",
   "domain": "standalone_microblaze_0",
   "cpuInstance": "microblaze_0",
   "cpuType": "microblaze",

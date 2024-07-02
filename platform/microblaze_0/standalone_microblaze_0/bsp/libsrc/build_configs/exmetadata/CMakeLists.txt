@@ -14,7 +14,7 @@ while(${index} LESS ${no_of_drivers})
     set(exp_dir "${drv_dir}/examples")
     add_custom_target(
         ${drv}_example ALL
-        COMMAND lopper -f -O C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/${drv} C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/hw_artifacts/microblaze_0_baremetal.dts -- bmcmake_metadata_xlnx microblaze_0 ${exp_dir} drvcmake_metadata
+        COMMAND lopper -f -O C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/${drv} C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/hw_artifacts/microblaze_0_baremetal.dts -- bmcmake_metadata_xlnx microblaze_0 ${exp_dir} drvcmake_metadata
         BYPRODUCTS x${drv}_exlist.yaml)
     MATH(EXPR index "${index}+1")
 endwhile()

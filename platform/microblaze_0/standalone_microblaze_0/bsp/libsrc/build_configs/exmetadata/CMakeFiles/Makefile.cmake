@@ -11,7 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/microblaze_toolchain.cmake"
+  "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/microblaze_toolchain.cmake"
   "C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in"
   "C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c"
   "C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCInformation.cmake"

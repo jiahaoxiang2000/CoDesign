@@ -2,7 +2,7 @@
 -- Found assembler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp
+-- Build files have been written to: C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp
 -- Cache values
 // BOARD
 BOARD:STRING=nexys-a7-100t
@@ -26,7 +26,7 @@ CMAKE_MACHINE:STRING=artix7
 CMAKE_SIZE:FILEPATH=mb-size
 
 // Specs file path for using CMAKE toolchain files
-CMAKE_SPECS_FILE:STRING=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec
+CMAKE_SPECS_FILE:STRING=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec
 
 // Device Id
 DEVICE_ID:STRING=7a100t

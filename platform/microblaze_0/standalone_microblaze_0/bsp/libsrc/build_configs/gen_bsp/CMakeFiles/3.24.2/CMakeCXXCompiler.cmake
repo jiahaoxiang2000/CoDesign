@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward;C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

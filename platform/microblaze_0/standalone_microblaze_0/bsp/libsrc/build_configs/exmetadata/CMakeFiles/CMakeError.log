@@ -1,6 +1,6 @@
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
 Compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe 
-Build flags: ;-O2;-mlittle-endian;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec;-IC:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include
+Build flags: ;-O2;-mlittle-endian;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec;-IC:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include
 Id flags:  
 
 The output was:
@@ -9,11 +9,11 @@ c:/xilinx/vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze
 collect2.exe: error: ld returned 1 exit status
 
 
-The C compiler identification could not be found in "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.d"
+The C compiler identification could not be found in "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.d"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
 Compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-g++.exe 
-Build flags: ;-O2;-mlittle-endian;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec;-IC:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include
+Build flags: ;-O2;-mlittle-endian;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spec;-IC:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/include
 Id flags:  
 
 The output was:
@@ -22,5 +22,5 @@ c:/xilinx/vitis/2023.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze
 collect2.exe: error: ld returned 1 exit status
 
 
-The CXX compiler identification could not be found in "C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.d"
+The CXX compiler identification could not be found in "C:/Users/xjh-pc/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.d"
 
