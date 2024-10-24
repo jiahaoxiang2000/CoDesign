@@ -145,7 +145,7 @@ int main(void)
 
   //******************JA********************
   // pin 1 for  IIC SCL, pin 2 for IIC SDA
-  GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x22);
+  GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x00);
   OLED_Init();
   OLED_ColorTurn(0);
   OLED_DisplayTurn(0);
@@ -165,10 +165,7 @@ int main(void)
   /* Set the direction for all signals as inputs except the LED output */
   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
   /* Loop forever blinking the LED */
-  uint8_t hello[30] = {0};
-  hello[0] = '\0';
-  uint8_t receivedByte;
-  int i = 0; // Index for storing received bytes
+  
   while (1)
   {
     /* Set the LED to High */
@@ -179,20 +176,13 @@ int main(void)
     XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
     sleep(1);
-    i = 0;
     
-    do
-    {
-      receivedByte = uartReceiveByte(); // Receive a byte
-      hello[i++] = receivedByte;        // Store the received byte
-    } while (receivedByte != '\r' && i < sizeof(hello) - 1); // Check for carriage return or buffer full
+    OLED_ShowString(0, 0, "P:0123456789ABCDEF", 12);
+    OLED_ShowString(0, 12, "FEDCBA9876543210", 12);
+    OLED_ShowString(0, 24, "C:6C842BCE41C7E351", 12);
+    OLED_ShowString(0, 36, "4068A3FB8BB42936", 12);
+    OLED_ShowString(0, 48, "Total Delay: 2.79 ns", 12);
+    OLED_Refresh();
 
-    hello[i] = '\0'; // Null-terminate the string
-
-    // Send back the received string
-    for (int j = 0; hello[j] != '\0'; j++)
-    {
-      uartSendByte(hello[j]);
-    }
   }
 }
