@@ -165,7 +165,7 @@ int main(void)
   /* Set the direction for all signals as inputs except the LED output */
   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
   /* Loop forever blinking the LED */
-  
+
   while (1)
   {
     /* Set the LED to High */
@@ -176,13 +176,12 @@ int main(void)
     XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
     sleep(1);
-    
-    OLED_ShowString(0, 0, "P:0123456789ABCDEF", 12);
-    OLED_ShowString(0, 12, "FEDCBA9876543210", 12);
-    OLED_ShowString(0, 24, "C:6C842BCE41C7E351", 12);
-    OLED_ShowString(0, 36, "4068A3FB8BB42936", 12);
-    OLED_ShowString(0, 48, "Total Delay: 2.79 ns", 12);
-    OLED_Refresh();
 
+    OLED_ShowString(2, 0, "P:0000000000000000", 12);
+    OLED_ShowString(2, 12, "0000000000000000", 12);
+    OLED_ShowString(2, 24, "C:6A7BE51D43DC7B8E", 12);
+    OLED_ShowString(2, 36, "A328EE2363B764BF", 12);
+    OLED_ShowString(2, 48, "Total Delay: 3.12 ns", 12);
+    OLED_Refresh();
   }
 }
